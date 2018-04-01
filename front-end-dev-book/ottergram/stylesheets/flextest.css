@@ -1,0 +1,49 @@
+.main{
+    width: 380px;
+}
+.row{
+    margin-bottom: 10px;
+    display: inline;
+    justify-content: flex-end;
+}
+.square{
+    background-color: palevioletred;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.f-start{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: palegoldenrod;
+}
+.special{
+    flex: 1 1 auto;
+    display: flex;
+}
+.f-end{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: palegoldenrod;
+}
+.center{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    background-color: palegoldenrod;
+}
+.sp-between{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: palegoldenrod;
+}
+.sp-around{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: palegoldenrod;
+}

@@ -116,6 +116,10 @@ a {
     left: 4px;
 }
 
+.hidden-detail .detail-image-container {
+    display: none;
+}
+
 @media all and (min-width: 768px) {
     .main-content {
       flex-direction: row;
@@ -135,3 +139,4 @@ a {
     .thumbnail-item + .thumbnail-item {
       margin-top: 2em;
     }
+}
