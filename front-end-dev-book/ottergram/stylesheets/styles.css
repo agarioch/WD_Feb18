@@ -120,6 +120,15 @@ a {
     display: none;
 }
 
+.hidden-detail .thumbnail-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden-detail .thumbnail-item {
+    max-width: 80%;
+}
+
 @media all and (min-width: 768px) {
     .main-content {
       flex-direction: row;
