@@ -159,6 +159,8 @@ a {
   
     .thumbnail-item {
       max-width: 260px;
+      max-height: 220px;
+      overflow: visible;
     }
   
     .thumbnail-item + .thumbnail-item {
